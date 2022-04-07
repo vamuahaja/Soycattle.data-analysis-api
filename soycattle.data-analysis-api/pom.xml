@@ -50,13 +50,18 @@
 
 		<!-- Additionals dependecies -->
 	
-		<!-- PostgreSQL depency -->
+		<!-- PostgreSQL dependency -->
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
 			<scope>runtime</scope>
 		</dependency>
-	
+		
+		<!-- Dependency data migration with Flyway -->
+		<dependency>
+			<groupId>org.flywaydb</groupId>
+			<artifactId>flyway-core</artifactId>
+		</dependency>
 	</dependencies>
 
 
